@@ -3,7 +3,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dir='usr/Documents/tianchi-contest/data/'
+dir='../data/'
 train = pd.read_table(dir + 'train_20171215.txt',engine='python')
 test_A = pd.read_table(dir + 'test_A_20171225.txt',engine='python')
 sample_A = pd.read_table(dir + 'sample_A_20171225.txt',engine='python',header=None)
